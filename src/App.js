@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Test from './components/testing';
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <Test />
         </a>
       </header>
+      <Test />
     </div>
   );
 }
